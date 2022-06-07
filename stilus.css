@@ -1,0 +1,85 @@
+main, header,nav, article, aside, footer{
+    border:1px solid black;
+    padding: 2px;
+    background-color: rgb(9, 255, 0);
+}
+table{
+    grid-area: t;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    background-color: aquamarine;
+}
+tr ,td{
+    border-bottom: 2px solid black;
+}
+.focistahely{
+    font-size: 30px;
+}
+aside image{
+    max-width: 100%;
+}
+header{
+    grid-area: h;
+    text-align: center;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    
+}
+nav{
+    grid-area: n;
+    font-size: 30px;
+}
+nav ul{
+    list-style: none;
+
+}
+nav li{
+    font: bold;
+}
+nav li a{
+    text-decoration: none;
+    color: purple;
+}
+nav li a:hover{
+    color: white;
+    background-color: black;
+}
+article{
+    grid-area: ar;
+    background-color: aquamarine;
+    font-size: 30px;
+}
+aside{
+    grid-area: as;
+    font-size: 30px;
+    color: red;
+    width: 100%;
+}
+footer{
+    grid-area: f;
+    text-align: center;
+}
+main{
+    margin: auto;
+    max-width: 1500px;
+        display: grid;
+        grid-template-columns:  auto auto auto;
+        grid-template-areas:    "h h h"
+                                "n ar ar"
+                                "as as as"
+                                "f f f";
+}
+@media screen and (max-width:800px){
+    main{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-areas:    "h"
+                                "n"
+                                "ar"
+                                "t"
+                                "as"
+                                "f";
+    }
+}
