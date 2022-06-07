@@ -1,0 +1,32 @@
+{
+    "focista":[
+        {
+            "Nev":"Karim Benzema",
+            "Szuldatum":"1987.12.19",
+            "Csapat":"Real Madrid",
+            "Nemzetiseg":"Francia",
+            "Kep":"./kepek/Benzema.jpg"
+        },
+        {
+            "Nev":"Cristiano Ronaldo",
+            "Szuldatum":"1985.02.5",
+            "Csapat":"Manchester United",
+            "Nemzetiseg":"Portugália",
+            "Kep":"./kepek/cr7.jpg"  
+        },
+        {
+            "Nev":"Sergio Ramos",
+            "Szuldatum":"1986.03.30",
+            "Csapat":"Paris Saint-Germain",
+            "Nemzetiseg":"Spanyol",
+            "Kep":"./kepek/ramos.jpg"
+        },
+        {
+            "Nev":"Marcelo Vieira",
+            "Szuldatum":"1988.03.12",
+            "Csapat":"Real Madrid",
+            "Nemzetiseg":"Brazil",
+            "Kep":"./kepek/marcelo.jpg"
+        }
+    ]
+}
